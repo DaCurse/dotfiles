@@ -1,0 +1,18 @@
+#!/usr/bin/zsh
+
+# Programming
+alias spj='sort-package-json'
+alias svelte-new='npx degit sveltejs/template'
+alias todo='code ./TODO'
+get-license() {
+	file="${2:-LICENSE}"
+	curl "https://raw.githubusercontent.com/OpenSourceOrg/licenses/master/texts/plain/$1" --output "$file"
+}
+alias python3='python'
+
+# Misc
+
+alias vmrun='"/c/Program Files (x86)/VMware/VMware Workstation/vmrun.exe"'
+
+alias whatismyip='curl ifconfig.co 2>/dev/null'
+
