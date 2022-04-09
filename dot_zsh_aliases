@@ -10,6 +10,10 @@ get-license() {
 }
 alias python3='python'
 
+npex() {
+	./node_modules/.bin/$1 ${@:2}
+}
+
 # Misc
 
 alias vmrun='"/c/Program Files (x86)/VMware/VMware Workstation/vmrun.exe"'
